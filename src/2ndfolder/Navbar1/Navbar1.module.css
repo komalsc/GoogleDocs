@@ -1,0 +1,65 @@
+.main{
+    width: 99.9%;
+    height: 5rem;
+    background-color: white;
+    /* position: fixed; */
+display: flex;
+align-items: center;
+justify-content: flex-start;
+/* padding-left: 2rem; */
+gap: 1rem;
+}
+.innercontainer{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.innercontainer h3{
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-start;
+    align-items: center;
+font-weight: 400;
+font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+color: gray;
+}
+.filename{
+    display: flex;
+    font-size: 14px;
+    gap: 1rem;
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+}
+.innercontainer2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+    margin-left: 50rem;
+    border: none;
+}
+.share p{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    font-weight: 600;
+        padding: 0.6rem;
+        border-radius: 5px;
+}
+.input{
+    width: 10rem;
+    height: 1.5rem;
+    border: none;
+    outline: none;
+    font-size: 19px;
+
+}
+@media only screen and (max-width:700px){
+    .innercontainer2{
+        display: none;
+       
+    }
+}
